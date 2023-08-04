@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto_parcial_1.HelloController">
+   <children>
+      <Label fx:id="Lblue" layoutX="84.0" layoutY="48.0" onKeyTyped="#eventKey" text="Label" />
+      <Label fx:id="Lred" layoutX="84.0" layoutY="106.0" onKeyTyped="#eventKey" text="Label" />
+      <Label fx:id="Lyellow" layoutX="84.0" layoutY="183.0" onKeyTyped="#eventKey" text="Label" />
+      <Label fx:id="Lgreen" layoutX="84.0" layoutY="264.0" onKeyTyped="#eventKey" text="Label" />
+      <ChoiceBox fx:id="comboBox" layoutX="409.0" layoutY="36.0" onKeyTyped="#eventKey" prefWidth="150.0"/>
+      <Button fx:id="btncolor" layoutX="251.0" layoutY="74.0" mnemonicParsing="false" onKeyTyped="#eventKey" prefHeight="310.0" prefWidth="316.0" />
+   </children>
+</AnchorPane>
